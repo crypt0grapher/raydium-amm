@@ -590,9 +590,9 @@ pub struct StateData {
     pub swap_acc_pc_fee: u64,
 
     /// swap pc in amount
-    pub swap_pc_in_amount: u128,
+    pub swap_pc_in_amount: u64,
     /// swap coin out amount
-    pub swap_coin_out_amount: u128,
+    pub swap_coin_out_amount: u64,
     /// charge coin as swap fee while swap coin to pc
     pub swap_acc_coin_fee: u64,
 }
